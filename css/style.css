@@ -1,0 +1,119 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.card-title {
+  color: #007bff;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.quiz-box {
+  max-width: 700px;
+  margin: auto;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+/* Contacts */
+form {
+  max-width: 600px;
+  margin: auto;
+  transition: box-shadow 0.3s ease;
+}
+
+form:hover {
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.2);
+}
+
+form input,
+form textarea {
+  border-radius: 8px;
+  transition: border-color 0.3s;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 5px rgba(13, 110, 253, 0.3);
+}
+
+form button {
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #004ba0;
+}
+
+
+/* GameON */
+#scoreDisplay,
+#currencyDisplay {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+#itemResult {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.item-card {
+  border: 2px dashed #007bff;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  background-color: #f0f8ff;
+  min-width: 140px;
+}
+
+.item-icon {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.item-name {
+  font-weight: bold;
+}
+
+#badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.badge-card {
+  padding: 15px;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  min-width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.badge-icon {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.badge-label {
+  font-size: 1rem;
+  font-weight: bold;
+}
